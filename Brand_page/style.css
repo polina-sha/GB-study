@@ -54,14 +54,26 @@ body {
 }
 
 .search__browse i {
-    color: 838383;
+    color: #838383;
 }
 
-.fas {
+.header .search input {
+    height: inherit;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 16px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
 }
-.fa-caret-down {
-}
-.fa-search {
+
+.header .search button:last-child {
+    border: none;
+    outline: none;
+    height: inherit;
+    background-color: #ffffff;
+    padding: 12px;
+    color: #a4a4a4;
 }
 
 .header__cart {
@@ -105,4 +117,97 @@ body {
 }
 
 .topBanner {
+    width: 1600px;
+    height: 665px;
+    margin: auto;
+    background-image: url(img/slider1.jpg);
+}
+
+.theBrand {
+    width: 509px;
+    height: 92px;
+    padding-top: 276px;
+    padding-left: 230px;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.category {
+    display: flex;
+    padding-top: 100px;
+    width: 1140px;
+    height: 823px;
+}
+
+.block1 {
+    padding-right: 20px;
+    display: block;
+}
+
+.block2 {
+    display: block;
+}
+
+.featuredItems {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: 0.025px;
+    color: #222222;
+}
+
+.p {
+    font-size: 14px;
+    line-height: 54px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #9f9f9f;
+}
+
+.product {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.unit-block {
+    outline: 1px solid #fff;
+    margin-bottom: 80px;
+}
+
+.unit-block:hover {
+    background-image: url(img/shadow_1208.png);
+    width: 275px;
+    height: 376px;
+}
+
+.name {
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #222222;
+}
+
+.price {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #f16d7f;
 }

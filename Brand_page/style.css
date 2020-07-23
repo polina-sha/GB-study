@@ -2,8 +2,6 @@
 
 body {
     margin: 0;
-    padding: 0;
-    color: #222222;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -23,6 +21,7 @@ body {
     width: 165px;
     line-height: 51px;
     text-transform: uppercase;
+    text-decoration: none;
     background: url("img/logo.png") no-repeat;
     background-blend-mode: overlay;
     font-size: 27px;
@@ -93,6 +92,11 @@ body {
     font-weight: 400;
 }
 
+.header__account-bar:hover {
+    background-color: #f16d7f;
+    cursor: pointer;
+}
+
 .headerLine {
     border-bottom: 1px solid #ececec;
 }
@@ -112,27 +116,331 @@ body {
     color: #222222;
 }
 
+.topNav :hover {
+    color: #f16d7f;
+}
+
 .topNav a:not(:last-child) {
     margin-right: 46px;
 }
 
+.NewArrivalsWrap {
+    height: 150px;
+    background-color: #f8f3f4;
+}
+
+.NewArrivals {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.NewArrivals h1 {
+    margin: 0;
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.NewArrivals nav a {
+    text-decoration: none;
+    color: #636363;
+}
+
+.NewArrivals nav a:hover {
+    color: #f16d7f;
+}
+
+.NewArrivals nav a:last-child {
+    font-weight: 700;
+    color: #f16d7f;
+}
+
+.shoppingCart {
+    margin-top: 100px;
+}
+
+.shoppingHeader {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #222222 !important;
+}
+
+.productDesc {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 20px;
+    color: #656565;
+}
+
+.productDesc > div:first-child {
+    width: 460px;
+}
+
+.productDesc > div:not(:first-child) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPrice {
+    width: 78px;
+}
+
+.productQuantity {
+    width: 68px;
+}
+
+.productQuantity input {
+    width: 54px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    height: 30px;
+    outline: none;
+}
+
+.productShipping {
+    width: 62px;
+    text-transform: uppercase;
+}
+
+.productSubtotal {
+    width: 66px;
+}
+
+.productAction {
+    width: 50px;
+}
+
+.productAction li:hover {
+    cursor: pointer;
+    color: #f16d7f;
+}
+
+.productDesc .product {
+    display: flex;
+}
+
+.productDesc .product img {
+    margin-right: 20px;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 22px;
+}
+
+.productSize, .productColor {
+    font-weight: 300;
+}
+
+.productName {
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: inherit;
+    font-weight: inherit;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.productParam {
+    font-weight: 400;
+}
+
+.shoppingButtonWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.shoppingButtonWrap button {
+    padding: 20px 40px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+.shoppingButtonWrap button:hover {
+    cursor: pointer;
+    color: #f16d7f;
+}
+
+.checkoutWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+    align-items: flex-start;
+}
+
+.shippingAddressWrap {
+    width: 355px;
+}
+
+.shippingAddressWrap h2 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.shippingAddressWrap select, .shippingAddressWrap input {
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    width: 100%;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 13px;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.shippingAddressWrap input:placeholder {
+    color: #b1b1b1;
+}
+
+.shippingAddressWrap button {
+    padding: 12px 15px;
+    border: 1px solid #eaeaea;
+    background: white;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 700;
+    font-size: 11px;
+    outline: none;
+    cursor: pointer;
+}
+
+.couponDiscountWrap {
+    width: 355px;
+}
+
+.couponDiscountWrap h2 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.couponDiscountWrap label {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.couponDiscountWrap input {
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    width: 100%;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 13px;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.couponDiscountWrap input:placeholder {
+    color: #b1b1b1;
+}
+
+.couponDiscountWrap button {
+    padding: 12px 15px;
+    border: 1px solid #eaeaea;
+    background: white;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 700;
+    font-size: 11px;
+    outline: none;
+    cursor: pointer;
+}
+
+.grandTotalWrap {
+    width: 360px;
+    background-color: #f5f3f3;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.grandTotalSub {
+    margin-bottom: 14px;
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.grandTotalSub span:last-child {
+    margin-left: 15px;
+}
+
+.grandTotalGrand {
+    text-align: right;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 17px;
+}
+
+.grandTotalGrand span:last-child {
+    color: #f16d7f;
+    margin-left: 20px;
+}
+
+.grandTotalWrap button {
+    width: 100%;
+    background-color: #f16d7f;
+    padding: 20px 38px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .topBannerWrap {
     height: 610px;
-    background-color: #e8e8e8;
+    background-image: url(img/slider1.jpg);
 
 }
 
 .topBanner {
-    width: 1600px;
+    width: 1140px;
     height: inherit;
     margin: auto;
-    background-image: url(img/slider1.jpg);
 }
 
 .theBannerContent {
     width: 509px;
     padding-top: 276px;
-    padding-left: 230px;
     line-height: 1.2;
     font-weight: 900;
     letter-spacing: 0.025px;
@@ -317,6 +625,11 @@ body {
 
 .featuredAllProductsBtn img {
     margin-left: 10px;
+}
+
+.featuredAllProductsBtn:hover {
+    background-color: #f16d7f;
+    cursor: pointer;
 }
 
 .offerForWomen {
@@ -521,7 +834,6 @@ body {
 }
 
 .footerMenu {
-    float: right;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
@@ -533,8 +845,7 @@ body {
     font-weight: 300;
     line-height: 24px;
     color: #898989;
-    flex-shrink: 0;
-    padding-right: px;
+    padding-right: 40px;
 }
 
 .footerBrandText1 {
@@ -568,12 +879,15 @@ body {
     margin-bottom: 20px;
 }
 
-.copyrightsWrap {
+.copyrights {
     height: 80px;
-    width: auto;
     background: #e6e6e6;
+}
+
+.copyrightsWrap {
     margin-top: 100px;
     color: #7a7a7a;
+    height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;

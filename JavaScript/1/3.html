@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        let result = 10 + 10 + "10";
+        console.log(result);
+        /*
+        складываем числа 10 и 10, получаем 20
+        к этой же строке добавляем строку 10
+        получаем 2010
+        */
+        let result1 = 10 + "10" + 10;
+        console.log(result1);
+        /*
+        не применяется действие сложения,следовательно числа и строка не складываются между собой, а представляют единое число 101010
+        */
+        let result2 = 10 + 10 + +"10";
+        console.log(result2);
+        /*
+        складываем числа 10 и 10, получаем 20
+        к числу 20 прибавляем строку 10
+        получаем 30
+        */
+        let result3 = 10 / -"";
+        console.log(result3);
+        /*
+        -Infinity - не дает результата, поскольку делим отсутствующее число (на ноль)
+        */
+        let result4 = 10 / +"2,5";
+        console.log(result4);
+        /*
+        результаттом является не число, нельзя делить и складывать в одном действии
+        получаем результат NaN
+        */
+    </script>
+</body>
+
+</html>

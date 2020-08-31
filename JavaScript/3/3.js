@@ -15,3 +15,7 @@ const products = [
         price: 1000,
     },
 ];
+products.forEach(item => {
+    item.price = item.price - item.price * 0, 15;
+});
+console.log(products);

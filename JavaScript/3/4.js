@@ -25,3 +25,10 @@ const products = [
         price: 78,
     },
 ];
+
+const productsWithPhotos = products.filter(item => "photos" in item && item.photos.length > 0);
+console.log(productsWithPhotos);
+
+const sortedFromLowPriceToHigh = products.sort(function (item1, item2) {
+    return item1.price - item2.price;
+});

@@ -1,0 +1,50 @@
+[
+    {
+        "productName": "Mango People T-shirt",
+        "productPrice": 27,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img1.jpg",
+        "productId": "prod_0"
+    },
+    {
+        "productName": "Mango People Womens Blouse",
+        "productPrice": 35,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img2.jpg",
+        "productId": "prod_1"
+    },
+    {
+        "productName": "Mango People Jacket",
+        "productPrice": 65,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img3.jpg",
+        "productId": "prod_2"
+    },
+    {
+        "productName": "Mango People Flowers Blouse",
+        "productPrice": 40,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img4.jpg",
+        "productId": "prod_3"
+    },
+    {
+        "productName": "Mango People B&W Blouse",
+        "productPrice": 46,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img5.jpg",
+        "productId": "prod_4"
+    },
+    {
+        "productName": "Mango People Blazer",
+        "productPrice": 58,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img6.jpg",
+        "productId": "prod_5"
+    },
+    {
+        "productName": "Mango People Jeans",
+        "productPrice": 73,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img7.jpg",
+        "productId": "prod_6"
+    },
+    {
+        "productName": "Mango People Pullover",
+        "productPrice": 52,
+        "productImg": "https://raw.githubusercontent.com/polina-sha/GB-study/master/static/img/img8.jpg",
+        "productId": "prod_7"
+    }
+]
